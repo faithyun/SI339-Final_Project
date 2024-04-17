@@ -198,7 +198,14 @@ border:10px;
 .memories_pictures img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+
 }
+.memories_pictures img:hover {
+
+  filter: grayscale(100%);
+}
+
+
 
 .mom img:hover, .dad img:hover , .daniel img:hover, .issac img:hover {
   animation: shake 0.5s;
