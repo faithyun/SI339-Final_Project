@@ -284,36 +284,43 @@ padding-bottom: 40px;
 
 
 /* social media icons */
-/* Style all font awesome icons */
+
 .social {
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  padding: 20px;
-  margin-bottom: 90px;
-  width: 10px;
-  height:10px;
   align-items: center;
   justify-items: center;
   justify-content: center;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  margin-bottom: 90px;
+  width: 10px;
+  height:10px;
   text-decoration: none;
   border-radius: 50%;
 }
 
-/* Add a hover effect if you want */
-.social:hover {
-  opacity: 0.8;
-}
 
-/* Set a specific color for each brand */
 
 /* instagram */
-.social-instagram {
-  background-color: grey;
+.fa-instagram {
+  background-color: #e3e5e2;
+  margin-right:50px;
+}
+
+.fa-instagram:hover {
+  opacity: 0.5;
 }
 
 /* email */
-.social-email {
-  background-color: grey;
+.fa-google {
+  background-color: #e3e5e2;
+}
+
+.fa-google:hover {
+  opacity: 0.5;
 }
 
 footer{
