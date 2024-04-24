@@ -178,6 +178,10 @@ padding-bottom: 40px;
   padding-bottom: 40px;
 }
 
+
+/* flip box for memories */
+
+
 .memories_pictures {
   display: grid;
   grid-template-columns: repeat(1,1fr) ;
@@ -193,12 +197,17 @@ padding-bottom: 40px;
   justify-items: center;
   align-items: center;
   margin: auto;
-  border-radius: 50%;
-  border-color: rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+  /* border-color: rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 8px;
   margin: 10px;
-  
+   */
+}
+
+.memories_pictures img{
+  background-color: #e3e5e2;
+  /* padding-bottom: 80px; */
 }
 
 
@@ -207,11 +216,35 @@ padding-bottom: 40px;
   animation-iteration-count: infinite;
 
 } */
-/* .memories_pictures img:hover {
+.memories_pictures img:hover {
 
   filter: grayscale(100%);
+}
+
+div.gallery {
+  margin: 5px;
+  border: 10px solid white;
+  float: left;
+  width: 300px;
+  border-color: rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* div.gallery:hover {
+  border: 1px solid #777;
 } */
 
+div.gallery img {
+  width: 300;
+  height: 400;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
 
 .mom img:hover, .dad img:hover , .daniel img:hover, .issac img:hover {
   animation: shake 0.5s;
